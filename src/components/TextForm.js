@@ -38,13 +38,13 @@ return (
     <div className="mb-3">
       <textarea className="form-control" onChange={handleOnChange} style={{backgroundColor:props.mode==='dark'?'#cccccc':'white' ,color:props.mode==='dark'?'white':'black'}} value={text} id="myBox" rows="7"></textarea>
     </div>
-    <button className="btn btn-primary mx-2" onClick={handleUpClick}>
+    <button className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>
       Convert to uppercase{" "}
     </button>
-    <button className="btn btn-secondary mx-2" onClick={handleLowClick}>
+    <button className="btn btn-secondary mx-2 my-2" onClick={handleLowClick}>
       Convert to lowercase{" "}
     </button>
-    <button className="btn btn-secondary mx-2" onClick={handleClearClick}>
+    <button className="btn btn-secondary mx-2 my-2" onClick={handleClearClick}>
       Clear{" "}
     </button>
   </div>
